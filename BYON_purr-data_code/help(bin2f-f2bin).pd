@@ -1,0 +1,24 @@
+#N canvas 2036 403 488 460 10;
+#X text 24 20 Two abstractions to convert to and from decimal and binary
+numbers. Decimal numbers are provided and procudes ad a float \, binary
+as a list.;
+#X obj 125 151 f2bin;
+#X floatatom 125 111 5 0 0 0 - - -, f 5;
+#X obj 125 202 list prepend set;
+#X obj 125 222 list trim;
+#X msg 125 262 1 1 0 1 1 1;
+#X obj 125 313 bin2f;
+#X floatatom 125 344 5 0 0 0 - - -, f 5;
+#X text 169 151 decimal to binary;
+#X text 169 313 binary to decimal;
+#X obj 125 242 t b a;
+#X text 33 384 Writen by weightless and found at https://forum.pdpatchrepo.info/topic/11512/decimal-to-binary-conversion
+;
+#X connect 1 0 3 0;
+#X connect 2 0 1 0;
+#X connect 3 0 4 0;
+#X connect 4 0 10 0;
+#X connect 5 0 6 0;
+#X connect 6 0 7 0;
+#X connect 10 0 5 0;
+#X connect 10 1 5 0;

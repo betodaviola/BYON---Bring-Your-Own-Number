@@ -1,6 +1,8 @@
-Please refer to the link in the application before running the code bellow. It has more relevant information about BYON (https://robertomochetti.com/works/byon.html)
+Please refer to the BYON webpage before running this code. It has more relevant information about BYON (https://robertomochetti.com/works/byon.html)
 
 How to Use This Code
+
+OBS: The files "BYON – Video" and "BYON - Music" are only shortcuts to, respectvely, BYON_processing_code/BYON_processing_code.pde and BYON_prurr-data_code/BYON.pd . This is to make running this code more convenient but, if the shortcuts do not work, you can run it by opening the files directly.
 
 Firstly, make sure that "BYON - Music" is opened in Purr Data or any version of Pure Data with the else, cyclone, and maxlib libraries. If you are not interested in the graphics, you can input the number in the empty message box and click on the large green [bang] under it. The music should start in 10 seconds if you increase the output volume in the patch.
 

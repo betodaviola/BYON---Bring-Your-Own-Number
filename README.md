@@ -1,4 +1,4 @@
-Please refer to the [BYON webpage](https://robertomochetti.com/works/byon.html) before running this code. It has more relevant information about BYON the BYON project.
+Please refer to the [BYON webpage](https://robertomochetti.com/works/byon.html) before running this code. It has more relevant information about the BYON project.
 
 # How to Use This Code
 
